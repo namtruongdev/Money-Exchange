@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=vietnamese"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DƯƠNG NAM TRƯỜNG - 1721050381</title>
+</head>
+
+<body>
+  <main>
+    <!-- -----------------Title section-------------- -->
+    <div class="title--section">
+      <h1 class="title">Chuyển đổi ngoại tệ</h1>
+      <div class="money">
+        <img src="./money.svg" alt="money">
+      </div>
+    </div>
+    <!-- ------------Form section --------------->
+    <div class="form--section">
+      <form action="#" method="get">
+        <!-- Input money number -->
+        <div class="money--number">
+          <label for="fmoney">Nhập số tiền:</label>
+          <input type="number" name="fmoney" id="fmoney" value="" placeholder="0">
+        </div>
+        <!-- Select money type -->
+        <div class="money--type">
+          <div class="money--type__type">
+            <label for="ftype">Chọn loại ngoại tệ:</label>
+            <select name="ftype" id="ftype">
+            </select>
+          </div>
+          <div class="money--type__rate" id="money--rate">
+            <span>Tỷ giá: </span>
+          </div>
+        </div>
+        <!-- result section -->
+        <div class="money--result" id="result">
+          <span>Quy đổi ra VND: </span>
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="main.js" async></script>
+</body>
+
+</html>
